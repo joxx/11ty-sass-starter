@@ -1,0 +1,29 @@
+{
+  "name": "11ty-sass-starter",
+  "version": "1.0.0",
+  "description": "Simple 11ty starter that includes a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joxx/11ty-sass-starter.git"
+  },
+  "keywords": [
+    "11ty",
+    "Eleventy",
+    "Sass"
+  ],
+  "author": "Joachim Kliemann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joxx/11ty-sass-starter/issues"
+  },
+  "homepage": "https://github.com/joxx/11ty-sass-starter#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "sass": "^1.63.6"
+  }
+}
