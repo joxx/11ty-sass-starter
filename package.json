@@ -6,10 +6,12 @@
   "scripts": {
     "start": "npm-run-all --parallel watch:*",
     "build": "npm-run-all --parallel build:*",
+    "watch:rollup": "rollup ./src/js/main.js --file ./public/bundle.js --format iife",
     "watch:sass": "sass --source-map -w src/css:public/css",
     "watch:eleventy": "eleventy --serve",
     "build:sass": "sass --style=compressed --no-source-map src/css:public/css",
-    "build:eleventy": "eleventy"
+    "build:eleventy": "eleventy",
+    "rollup:help": "rollup --help"
   },
   "repository": {
     "type": "git",
